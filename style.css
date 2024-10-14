@@ -1,0 +1,81 @@
+:root {
+    --primary: blue; /* Primary color */
+    --secondary: #FAF3EB; /* Secondary color */
+    --light: #FFFFFF; /* Light color */
+    --dark: #2B2825; /* Dark color */
+}
+
+body {
+    background-color: black;
+    color: black; /* Set default text color to black */
+}
+
+h1, h2, h3,  p {
+    color: wheat; /* Ensure all text is black */
+}
+h4, h5, h6{
+color :white;
+}
+.card-text{
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link {
+    padding: 30px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #0D6EFD; /* Set nav link color to black */
+    transition: color 0.5s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--primary); /* Blue hover effect */
+}
+
+.btn {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn-primary {
+    color: #FFFFFF; /* Keep button text white */
+}
+
+.bg-primary {
+    background-color:  #0D6EFD; /* Primary background */
+}
+
+.section-title::before,
+.section-title::after {
+    background: var(--primary); /* Underline color */
+}
+
+.hero-header {
+    background: url(./assets/banner1.jfif) top right no-repeat;
+    background-size: cover;
+    height: 625px;
+}
+
+.bg-img {
+    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(../img/bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+.card {  
+    background-color:  #0D6EFD;
+    border: none;
+    transition: transform .3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.icon-color {
+    color: white; 
+
+}
+
+
